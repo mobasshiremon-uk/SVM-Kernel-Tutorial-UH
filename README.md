@@ -1,4 +1,4 @@
-# 🎯 SVM Kernel Tutorial: Mastering Non-Linear Boundaries
+# 🎯 Tutorial: Mastering Non-Linear Boundaries with SVM Kernels
 **Author:** Mobasshir Mahmud  
 **Student ID:** 24128563  
 **University:** University of Hertfordshire  
