@@ -1,25 +1,35 @@
-# SVM-Kernel-Tutorial-UH
-Tutorial: Mastering SVM Kernels with Synthetic Data
-Author: Mobasshir Mahmud
+# 🎯 SVM Kernel Tutorial: Mastering Non-Linear Boundaries
+**Author:** Mobasshir Mahmud  
+**Student ID:** 24128563  
+**University:** University of Hertfordshire  
 
-Student ID: 24128563
+---
 
-University: University of Hertfordshire
+## 📖 Project Overview
+This repository contains a technical tutorial on **Support Vector Machine (SVM) Kernels**. [cite_start]I demonstrate how to classify data that cannot be separated by a straight line, specifically focusing on the "Kernel Trick" to solve circular data patterns. [cite: 5, 25]
 
-Project Overview
-This repository contains a technical tutorial on Support Vector Machine (SVM) Kernels. The tutorial demonstrates how to handle non-linearly separable data using the "Kernel Trick," specifically comparing Linear, Polynomial, and RBF kernels.
+### 🧪 Key Highlights
+* [cite_start]**The Data:** 500-1,000 synthetic points in concentric rings. [cite: 7, 16]
+* [cite_start]**The Solution:** Using the **RBF Kernel** to "lift" data into a 3D mountain-and-valley shape. [cite: 33, 36]
+* [cite_start]**The Results:** Achieving **100% accuracy** where standard linear models fail. [cite: 30]
 
-Contents
-make_circles.ipynb: The core Jupyter Notebook containing data generation, SVM modeling, and visualizations.
 
-SVM_Tutorial_Report.pdf: The full written tutorial explaining the theory and results.
 
-LICENSE: MIT License for code re-use.
+---
 
-How to Run the Code
-Ensure you have Python installed.
+## 📂 Repository Contents
+* [cite_start]**`Individual Assignment Machine Learning Tutorial code.ipynb`**: Core Jupyter Notebook with code and 3D visualizations. [cite: 33]
+* **`Individual Assignment Machine Learning Tutorial Report.pdf`**: Full report covering theory, hyperparameters (Gamma & C), and AI ethics. [cite: 41, 56, 61]
+* [cite_start]**`LICENSE`**: MIT License for open-source re-use. 
 
-Install the required libraries:
-pip install numpy matplotlib scikit-learn
+---
 
-Open make_circles.ipynb in Jupyter Notebook or VS Code and run all cells.
+## 💻 Software Requirements
+To run the code, you will need **Python (3.8+)** and the following libraries:
+* **NumPy** (Data handling)
+* **Matplotlib** (2D/3D Plotting)
+* **Scikit-Learn** (SVM Modeling)
+
+### 🛠️ Quick Install
+```bash
+pip install numpy matplotlib scikit-learn notebook
